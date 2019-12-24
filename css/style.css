@@ -1,0 +1,145 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, sans-serif;
+}
+
+header {
+    box-shadow: 1px 4px 5px 0px #888888;
+    z-index: 5;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+
+a.menu-item-home {
+    text-decoration: none;
+    font-size: 1em;
+    color: black;
+    letter-spacing: 4px;
+    display: inline-block;
+    padding: 16px 15px;
+}
+
+.header-menu-item {
+    float: right;
+}
+
+.header-menu-item ul {
+    display: inline-block;
+    padding: 0px;
+}
+
+.header-menu-item ul li {
+    list-style: none;
+    float: left;
+    padding: 0 25px;
+}
+
+.header-menu-item ul li a {
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-size: 1em;
+    color: black;
+}
+
+.full-header-img-section {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.main-display-img {
+    width: 100%;
+    height: 650px;
+}
+
+.text-upon-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+}
+
+.b-upon-img {
+    background-color: rgba(0, 0, 0, 0.71);
+    padding: 15px;
+}
+
+.projects-section,
+.about-section,
+.contact-section {
+    margin: 20px;
+}
+
+.projects-heading,
+.about-heading,
+.contact-heading {
+    border-bottom: 1px solid lightgray;
+    font-size: 1.4em;
+    font-weight: normal;
+    padding: 15px;
+}
+
+.projects-row,
+.about-row {
+    display: inline-block;
+}
+
+.projects-col {
+    width: 25%;
+    padding: 10px;
+    float: left;
+    box-sizing: border-box;
+    position: relative;
+    text-align: center;
+}
+
+.projects-img {
+    width: 100%;
+}
+
+.text-project-img {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    font-size: 0.9em;
+}
+
+.about-para {
+    padding: 10 5px;
+    font-size: 0.9em;
+    text-align: justify;
+}
+
+.about-col {
+    width: 25%;
+    padding: 10px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.about-people-img {
+    width: 100%;
+    filter: grayscale();
+}
+
+.people-name {
+    font-weight: normal;
+}
+
+.people-prof {
+    font-size: 1em;
+    color: gray;
+}
+
+.people-contact-btn {
+    padding: 10px 0px;
+    border: none;
+    font-size: 1em;
+    width: 100%;
+}
