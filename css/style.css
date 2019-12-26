@@ -143,3 +143,50 @@ a.menu-item-home {
     font-size: 1em;
     width: 100%;
 }
+
+.contact-info-box {
+    width: 100%;
+}
+
+.name,
+.email,
+.subject,
+.comment {
+    width: 100%;
+    padding: 10px;
+    margin: 10 0px;
+}
+
+.comment {
+    margin-bottom: 25px;
+}
+
+.msg-btn {
+    border-style: none;
+    padding: 10 15px;
+    background-color: black;
+    color: white;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.footer-img {
+    width: 100%;
+    height: auto;
+}
+
+.footer {
+    background-color: black;
+    margin-top: 20px;
+}
+
+.footer-link {
+    color: white;
+}
+
+.footer-text {
+    display: block;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
